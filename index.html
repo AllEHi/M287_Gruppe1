@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
+    <!--Seitentitel-->
     <title>Drip 287</title>
+    <!--Responsive Darstellung auf mobilen Geräten-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Favicon-->
     <link rel="icon" type="image/x-icon" href="icons\favicon.png">
@@ -13,7 +15,11 @@
 </head>
 
 <body class="w3-text-red">
+    <!--Header-->
     <header class="w3-container w3-green w3-text-brown">
+        <!--Logo-->
+        <img src="img\logo.png" alt="Logo" class="w3-left w3-margin-right" style="width:50px">
+        <!--Titel-->
         <h1 class="w3-jumbo">Drip 287</h1>
     </header>
     <!--Navigation-->
@@ -22,45 +28,66 @@
         <a href="html\shop.html" class="w3-bar-item w3-button w3-border-right">Shop</a>
         <a href="html\ueberuns.html" class="w3-bar-item w3-button w3-border-right">Über uns</a>
     </nav>
-    <!--Titel-->
-    <h1>Willkommen bei Drip 287</h1>
-    <div class="w3-row w3-col s12 m12 l12 w3-center">
-        <p>12 columns on a small screen, 12 on a medium screen, and 12 on a large screen.</p>
-    </div>
+    <main>
+        <!--Haupttitel-->
+        <h1>Willkommen bei Drip 287</h1>
+        <section class="w3-row w3-col s12 m12 l12 w3-center">
+            <p>12 columns on a small screen, 12 on a medium screen, and 12 on a large screen.</p>
+        </section>
 
-    <div class="w3-row">
-        <div class="w3-col s6 m6 l6 w3-yellow w3-center">
-            <p>12 columns on a small screen, 4 on a medium screen, and 3 on a large screen.</p>
-        </div>
-        <div class="w3-col s6 m6 l6 w3-black w3-center">
-            <p>12 columns on a small screen, 8 on a medium screen, and 9 on a large screen.</p>
-        </div>
-    </div>
-    <div class="w3-row">
-        <div class="w3-col s12 m12 l12 w3-red w3-center">
-            <!--Video-->
-            <video width="75%" height="50%" controls>
-                <source src="video\comingsoon.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <!--Audio-->
-            <audio controls>
-                <source src="audio\Drip 287.mp3" type="audio/mp3">
-                Your browser does not support the audio tag.
-            </audio>
-        </div>
-    </div>
-    <div class="w3-row">
-        <div class="w3-col s3 m3 l3 w3-yellow w3-center">
-            <p>12 columns on a small screen, 4 on a medium screen, and 3 on a large screen.</p>
-        </div>
-        <div class="w3-col s6 m6 l6 w3-black w3-center">
-            <p>12 columns on a small screen, 8 on a medium screen, and 9 on a large screen.</p>
-        </div>
-        <div class="w3-col s3 m3 l3 w3-yellow w3-center">
-            <p>12 columns on a small screen, 8 on a medium screen, and 9 on a large screen.</p>
-        </div>
-    </div>
+        <!--Zweispaltiges Layout-->
+        <section class="w3-row">
+            <div class="w3-col s6 m6 l6 w3-yellow w3-center">
+                <p>12 columns on a small screen, 4 on a medium screen, and 3 on a large screen.</p>
+            </div>
+            <div class="w3-col s6 m6 l6 w3-black w3-center">
+                <p>12 columns on a small screen, 8 on a medium screen, and 9 on a large screen.</p>
+            </div>
+        </section>
+
+        <!--Einspaltiges Layout-->
+        <section class="w3-row">
+            <div class="w3-col s12 m12 l12 w3-red w3-center">
+                <!--Video-->
+                <video width="75%" height="50%" controls>
+                    <source src="video\comingsoon.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <!--Audio-->
+                <audio controls>
+                    <source src="audio\Drip 287.mp3" type="audio/mp3">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+        </section>
+        <!--Dreispaltiges Layout-->
+        <section class="w3-row">
+            <aside class="w3-col s12 m3 l3 w3-yellow w3-center">
+                <p>12 columns on a small screen, 4 on a medium screen, and 3 on a large screen.</p>
+            </aside>
+            <!--Accordion-->
+            <div class="w3-col s12 m6 l6 w3-center">
+                <button class="accordion">Section 1</button>
+                <div class="panel">
+                    <p>Lorem ipsum...</p>
+                </div>
+
+                <button class="accordion">Section 2</button>
+                <div class="panel">
+                    <p>Lorem ipsum...</p>
+                </div>
+
+                <button class="accordion">Section 3</button>
+                <div class="panel">
+                    <p>Lorem ipsum...</p>
+                </div>
+            </div>
+            <aside class="w3-col s12 m3 l3 w3-yellow w3-center">
+                <p>12 columns on a small screen, 8 on a medium screen, and 9 on a large screen.</p>
+            </aside>
+        </section>
+    </main>
+    <!--Footer-->
     <footer class="w3-container w3-light-blue">
         <p>Inhaber: Alina Nietlispach, Aveline Huskaj, Ella Hinni</p>
         <p>Dokumentation: Hinni_Huskaj_Nietlispach_mma25b_M287</p>
